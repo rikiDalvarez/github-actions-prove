@@ -2,13 +2,13 @@ name: hello world
 
 on:
 	push:
-		branches:
-			- master
+	branches:
+		- master
 
 jobs:
 	test:
-    runs-on: ubuntu-18.04
-    steps:
+		runs-on: ubuntu-18.04
+		steps:
       - name: Echo the message
         run: |
           echo "hola riki!"
